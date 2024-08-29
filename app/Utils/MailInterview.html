@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            max-width: 80px;
+        }
+
+        .acceptance-message {
+            background-color: #3474ea;
+            /* Green */
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://i.ibb.co/2NH3YHz/418571875-7129425773809635-2966851991592473008-n.png" alt="logo"
+                border="0">
+        </div>
+        <p>Dear {{ name }},</p>
+        <p>We are thrilled to inform you that your profil pleases us and we would like to take this to the next level !
+        </p>
+        <div class="acceptance-message">We appreciate your interest in our company.</div>
+        <p>We are wondering if you are available next {{ date }} in our company in {{ location }} for a live interview
+            so
+            we can have the opportunity to
+            hear more about you and know you better .</p>
+    </div>
+</body>
+
+</html>
